@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@font-face{
+ font-family: bbb;src: url(../../mini-project_4_1k57/fonts/B_Yekan/Yekan.ttf)format(truetype);
+}
+body{
+    font-family: bbb;
+    background-color: rgb(107, 137, 236);
+   
+    color: rgb(34, 34, 34);
+}
+.container{
+    width: 600px;
+    height: 360px;
+    margin: 100px auto;
+    position: relative;
+    box-shadow: 0 0 40px rgb(39, 39, 39);
+    border-radius: 10px 25px 10px 25px;
+}
+.card{
+    width: 220px;
+    height : 360px;
+    position: absolute;
+    top: -30px;
+    right: 30px;
+    border-radius: 10px 25px 10px 25px;
+    overflow: hidden;
+    box-shadow: 0 0 30px rgb(39, 39, 39);
+}
+.card p{
+    padding-right: 15px;
+    margin: 2px;
+}
+.pic{
+    width : 100%;
+}
+.bio{
+    width: 300px;
+    height : 300px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+    text-align: justify;
+}
